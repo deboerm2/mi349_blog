@@ -24,6 +24,8 @@ p{
 
 #blog {
     border-top: 2px dotted #ccc;
+    display: flex;
+    gap: 40px;
 }
 
 .blog-post{
@@ -44,4 +46,18 @@ a{
 
 form{
     margin: 10px 
+}
+
+nav{
+    background: rgb(235, 182, 182);
+    position:sticky;
+    top: 10px;
+}
+ul{
+    display: flex;
+    gap: 40px;
+}
+
+.blog-image{
+    float: right;
 }
