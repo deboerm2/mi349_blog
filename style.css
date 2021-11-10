@@ -53,11 +53,35 @@ nav{
     position:sticky;
     top: 10px;
 }
-ul{
+nav ul{
     display: flex;
     gap: 40px;
+    list-style-type: none;
 }
 
 .blog-image{
     float: right;
+}
+
+@media screen and (max-width: 400px){
+
+    body{
+        margin:0;
+        padding:0;
+    }
+
+    #blog{
+        display: block;
+    }
+
+    p{
+        padding-right:20px;
+    }
+
+    .blog-image{
+        float:left;
+        width: 100;
+        padding:0;
+    }
+
 }
